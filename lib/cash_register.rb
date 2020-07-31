@@ -6,9 +6,9 @@
     @discount=discount
     @items=[]
   end
-  def total
-   @total
-  end
+  #def total
+  # @total
+  #end
   def add_item (item, price, quantity=1)
     @total += price * quantity
     if quantity > 1
